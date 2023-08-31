@@ -1,0 +1,101 @@
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+	background: #fefbe4;
+	color: #000;
+}
+
+
+h1{
+	color: #fff;
+	margin: 0 0 10px;
+	font-size: 120px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contact img{
+    max-width: 1rem;
+    margin-right: 0.5rem;
+}
+
+.logo img{
+    max-width: 5rem;
+    margin-right: 0.5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 2em;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.parallax_section{
+	box-sizing: border-box;
+	min-height: 80vh;
+	padding: 10vh 10vh;
+	position: relative;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+
+	overflow: hidden;
+
+	transform-style: preserve-3d;
+}
+.parallax_bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center center;
+	z-index: -1;
+	min-height: 100%; 
+
+	transform: translate3d(0,0,-1px) scale(2);
+}
+
+.sticky{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.wrapper_outer{
+	height: 100vh;
+	overflow: hidden;
+}
+.wrapper{
+	height: 100%;
+	overflow-x: hidden;
+
+	perspective: 1px;
+}
+
+
+
