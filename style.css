@@ -14,8 +14,10 @@ body{
 .card {
     width: 300px;
     padding: 32px 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.533) 0px 1px 4px;
     border-radius: 5px;
+	background-color: #fff;
+	margin: 2%;
 }
   
 .card h2 {
@@ -40,8 +42,28 @@ body{
     color: black;
 }
 
+
+.Cennik {
+    width: 30%;
+	height: 500px;
+    padding: 32px 20px;
+    box-shadow: rgba(0, 0, 0, 0.352) 0px 0px 15px;
+    border-radius: 5px;
+	background-color: #fff;
+}
+  
+.Cennik h2 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
 .contact{
 	display: flex;
+	font-size: small;
+}
+
+.contact a{
+	font-size: small;
 }
 
 .contact img{
@@ -54,11 +76,24 @@ footer{
 	height: 3rem;
 	width: 100%;
 	display: flex;
-	text-align: center;
 	padding: 0 1rem;
 	color: #ffffff;
 	justify-content: space-between;
+	align-items: center;
 
+}
+
+.footerclass{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.footerclass a{
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: 2rem;
 }
 
 h1{
@@ -76,6 +111,10 @@ h2{
 	text-align: center;
 }
 
+h5{
+	margin: 0%;
+}
+
 header{
 	 width: 100%;
 	 display: flex;
@@ -91,7 +130,11 @@ header a{
 
 header ul {
 	display: flex;
-	justify-content: center;
+	justify-content: center; 
+}
+
+header ul li{
+	margin: 0.5rem;
 }
 
 .insidephoto ol{
@@ -158,15 +201,17 @@ nav{
 
 .offerts {
     display: flex;
-    justify-content: space-between;
-    width: 960px;
+    justify-content: space-evenly;
+    width: 100%;
     margin: 0 auto;
-    padding: 32px 0;
+	background-image: url(src/seashell2.png);
+	padding: 5% 10%;
+
 }
 
 .parallax_section{
 	box-sizing: border-box;
-	min-height: 80vh;
+	min-height: 60vh;
 	padding: 10vh 10vh;
 	position: relative;
 	width: 100vw;
@@ -195,6 +240,7 @@ nav{
 .parallax_section2 ul li{
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 
 
 }
@@ -214,7 +260,7 @@ nav{
 	background-position: center center;
 	z-index: -10;
 	min-height: 100%; 
-	transform: translate3d(0,0,-2px) scale(1);
+	transform: translate3d(0,0,-4px) scale(1);
 }
 
 .photo{
@@ -226,6 +272,16 @@ nav{
 	border-top: rgb(0, 0, 0) solid 1.2em;
 	background-color: rgb(255, 255, 255);
 	position: relative;
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+	min-height: 78vh;
+    margin: 0 auto;
+    padding: 32px 0;
+	background-image: url(src/seashell2.png);
 }
 
 .sticky{
@@ -251,7 +307,7 @@ ul li {
 	
 }
 
-.wrapper_outer{
+/* .wrapper_outer{
 	height: 100vh;
 	overflow: hidden;
 }
@@ -262,6 +318,6 @@ ul li {
 	perspective: 1px;
 }
 
-
+ */
 
   
