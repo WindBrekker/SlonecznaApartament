@@ -4,12 +4,12 @@ const carousel = document.querySelector('.carousel');
 
 
 const images = {
-    Przedpokój: ['apple1.jpg', 'apple2.jpg', 'apple3.jpg'],
-    Sypialnia: ['apple1.jpg', 'apple2.jpg', 'apple3.jpg'],
-    Łazienka: ['apple1.jpg', 'apple2.jpg', 'apple3.jpg'],
-    Kuchnia: ['apple1.jpg', 'apple2.jpg', 'apple3.jpg'],
-    Salon: ['apple1.jpg', 'apple2.jpg', 'apple3.jpg'],
-    Balkon: ['apple1.jpg', 'apple2.jpg', 'apple3.jpg'],
+    Przedpokój: ['src/rooms/przedpokoj/'],
+    Sypialnia: [],
+    Łazienka: [],
+    Kuchnia: [],
+    Salon: [],
+    Balkon: [],
 };
 
 rooms.addEventListener('click', (e) => {
